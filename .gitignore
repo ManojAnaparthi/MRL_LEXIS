@@ -1,0 +1,43 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Logs and local experiment outputs
+*.log
+logs/
+outputs/
+results/
+runs/
+checkpoints/
+wandb/
+tensorboard/
+
+# Model and optimizer artifacts
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Local environment and tooling files
+.env
+.env.*
+.idea/
+.vscode/
