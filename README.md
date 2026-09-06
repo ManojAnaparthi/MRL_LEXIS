@@ -79,11 +79,9 @@ For a quick smoke test:
 MIPIC_MAX_BATCHES=3 python run_experiments.py --model mipic
 ```
 
-For Kaggle / 2-GPU execution, see [`kaggle/README.md`](kaggle/README.md).
-
 ## Outputs
 
-Results are written to `results/` by default:
+Results are written to `results/` by default after execution:
 
 ```text
 results/
