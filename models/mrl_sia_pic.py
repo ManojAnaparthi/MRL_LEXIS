@@ -145,7 +145,7 @@ class TinyBERT_MRL_SIA_PIC(nn.Module):
             temperature=self.config.sia_temperature,
             w_attn=1.0,
             w_cka=1.0,
-            use_attention_kl=True,
+            use_attention_kl=False,
         )
 
         # 3. Progressive Information Chaining (PIC) Loss module

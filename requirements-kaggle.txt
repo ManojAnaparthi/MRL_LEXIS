@@ -1,6 +1,7 @@
 # Kaggle GPU environment already provides a CUDA-enabled PyTorch build.
 # Do not reinstall torch here; that can replace Kaggle's working CUDA stack.
 transformers>=4.40.0
+datasets>=2.18.0
 pandas>=2.0.0
 scikit-learn>=1.4.0
 scipy>=1.12.0
